@@ -1,2 +1,4 @@
 # Laboratory-work-of-the-second-semester
-laboratory work of the second semester for the teacher
+#### Tasks for the discipline<br>"Development of web applications and databases"
+
+1. [Lab 1 - JS Basics](lab 1/README.md)
