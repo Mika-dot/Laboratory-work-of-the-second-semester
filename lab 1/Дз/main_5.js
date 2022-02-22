@@ -1,7 +1,7 @@
-let NumberOne = prompt('Число один', 1);
-let NumberTwo = prompt('Число два', 2);
+let NumberOne = Number(prompt('Число один', 1));
+let NumberTwo = Number(prompt('Число два', 2));
 
-if((Number(NumberOne) == 10) || (Number(NumberTwo) == 10) || (Number(NumberTwo + NumberOne) == 10)){
+if((NumberOne == 10) || (NumberTwo == 10) || (NumberTwo + NumberOne == 10)){
     alert("истина ");
 }else {
     alert("лож");
