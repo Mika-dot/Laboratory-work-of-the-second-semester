@@ -1,6 +1,6 @@
-function absValue (adb = "Давай заново"){
+function absValue (adb = "NaN"){
     if(typeof adb === "string"){
-        return "Давай заново";
+        return "NaN";
     }
 
     if(Number(adb) < 0){
