@@ -1,4 +1,4 @@
-function isPalindrome(Palindrome = 'не прокотило') {
+function isPalindrome(Palindrome = 'не прокатило') {
     let length = Palindrome.length;
     for (let i = 0; i < length / 2; i++) {
         if (Palindrome[i] !== Palindrome[length - i - 1]) {
