@@ -6,6 +6,10 @@ function Back() {
     PictureMovement(PictureNumber -= 1)
 }
 
+function init() {
+    PictureMovement(PictureNumber);
+}
+
 function PictureMovement(room) {
     let ChangePictures = document.getElementsByClassName("Images");
     
