@@ -24,7 +24,7 @@ function PictureMovement(room) {
 }
 
 let PictureNumber = 1;
-PictureMovement(PictureNumber);
+//PictureMovement(PictureNumber);
 
 
 //https://bestprogrammer.ru/programmirovanie-i-razrabotka/kak-vyzvat-funktsiyu-javascript-v-html
