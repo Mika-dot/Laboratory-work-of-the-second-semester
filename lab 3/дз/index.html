@@ -97,6 +97,7 @@
 		
         document.getElementById("myBtn").onclick = function () {
             ModalObj.style.display = "block";
+		document.body.style.overflow = 'hidden';
         };
 		
         document.getElementById("forename").onblur = function (e) {
@@ -132,9 +133,14 @@
 					type4: document.getElementById("ticket4").checked
                 };//, , , };
             console.table(objs);
-            return false;
+            //return false;
             }
+document.body.style.overflow = 'visible';
+            ModalObj.style.display = "none";
+            return false;
         };
+
+
 
 
 
