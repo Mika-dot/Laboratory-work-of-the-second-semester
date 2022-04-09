@@ -10,4 +10,5 @@
 ---
 
 Teacher: Vereshchagin Vladislav Yurievich
+
 github: [slavaver](https://github.com/slavaver)
